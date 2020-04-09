@@ -1,0 +1,17 @@
+{
+  "name": "sathu_portfolio",
+  "version": "1.0.0",
+  "description": "Responsive Porfolio website",
+  "main": "index.js",
+  "homepage": "https://nikhil1006.github.io/sathwik-vadlamani",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Sathwik Vadlamani",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.1"
+  }
+}
